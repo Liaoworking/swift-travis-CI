@@ -1,4 +1,6 @@
 .DS_Store
+*.xcuserstate
+
 node_modules/
 npm-debug.log
 package-lock.json
@@ -20,7 +22,6 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 DerivedData
-*.xcuserstate
 
 #CocoaPods
 *.xcworkspace
