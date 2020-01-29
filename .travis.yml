@@ -13,6 +13,3 @@ jobs:
       osx_image: xcode11
       before_install:
       - gem install cocoapods
-      script:
-      - pod spec lint --allow-warnings
-      - pod lib lint --allow-warnings
