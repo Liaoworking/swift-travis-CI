@@ -13,3 +13,4 @@ jobs:
       osx_image: xcode11
       before_install:
       - gem install cocoapods
+      - pod install --project-directory=Travis_CI_Demo
