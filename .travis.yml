@@ -5,4 +5,4 @@ xcode_scheme: Travis_CI_Demo
 os: osx
 
 script:
-  - xcodebuild test -project Travis_CI_Demo/Travis_CI_Demo.xcodeproj -scheme Travis_CI_Demo_Test -destination "platform=iOS Simulator,name=iPhone 7" -sdk iphonesimulator13.3 CODE_SIGNING_REQUIRED=NO
+  - xcodebuild test -project Travis_CI_Demo/Travis_CI_Demo.xcodeproj -scheme Travis_CI_Demo_Test -destination "platform=iOS Simulator,name=iPhone 7" -sdk iphonesimulator CODE_SIGNING_REQUIRED=NO
