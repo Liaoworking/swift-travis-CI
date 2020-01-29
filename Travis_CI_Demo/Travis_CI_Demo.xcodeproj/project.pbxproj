@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,11 +13,11 @@
 		21B5824323A49D2600D2006B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B5824223A49D2600D2006B /* Assets.xcassets */; };
 		21B5824623A49D2600D2006B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B5824523A49D2600D2006B /* Preview Assets.xcassets */; };
 		21B5824923A49D2600D2006B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B5824723A49D2600D2006B /* LaunchScreen.storyboard */; };
-		8C122B2499777F07CEF52928 /* Pods_Travis_CI_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA320ED43A6A02CCD0C8026 /* Pods_Travis_CI_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BEB3B5D67CA699E9918E3FE /* Pods-Travis_CI_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis_CI_Demo.debug.xcconfig"; path = "Target Support Files/Pods-Travis_CI_Demo/Pods-Travis_CI_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		2181D66723E126140092B452 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B5823923A49D2400D2006B /* Travis_CI_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travis_CI_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B5823C23A49D2400D2006B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21B5823E23A49D2400D2006B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C122B2499777F07CEF52928 /* Pods_Travis_CI_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +47,6 @@
 				1BEB3B5D67CA699E9918E3FE /* Pods-Travis_CI_Demo.debug.xcconfig */,
 				F6686A30A4BBBE5FAA28F4E0 /* Pods-Travis_CI_Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -95,6 +93,7 @@
 		5966382CAC5DB57BC64C828C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2181D66723E126140092B452 /* HandyJSON.framework */,
 				BCA320ED43A6A02CCD0C8026 /* Pods_Travis_CI_Demo.framework */,
 			);
 			name = Frameworks;
